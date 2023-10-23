@@ -65,8 +65,9 @@
         // No need to change anything ABOVE this line ^
 
         return (
+          <div>
           <h1>Draw a Card</h1>
-          <button onClick={}>
+          <button onClick={draw}>
             Click to Draw a Card
           </button>
           <button onclick={shuffle}>
@@ -81,8 +82,13 @@
               )
             })}
           </div>
+          </div>
         )
       }
+
+      // Wrap the elements in a div
+      // 2 onclick on line 73 needs to be onClick
+      // And I believe on line 70 needs something within the curly brackets.
 
       // No need to change anything below this line
 
